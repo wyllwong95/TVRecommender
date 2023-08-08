@@ -11,12 +11,12 @@
 .list {
   display: flex;
   width: calc(100vw - 25px);
-  overflow-x: hidden;
 }
 
 .tvshow_wrapper {
   cursor: pointer;
   padding-bottom: 17px;
+  overflow: hidden;
   &:hover {
     overflow: auto;
     padding-bottom: 0px;

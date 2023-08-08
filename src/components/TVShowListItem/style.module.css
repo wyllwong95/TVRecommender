@@ -1,0 +1,30 @@
+.img {
+  border-radius: 10px;
+}
+
+.container {
+  cursor: pointer;
+  margin-right: 20px;
+  position: relative;
+}
+
+.title_wrapper {
+  position: relative;
+  height: 30px;
+  top: -30px;
+  width: 300px;
+  background-color: rgba(0,0,0, .8);
+  border-radius: 0 0 10px 10px;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  position: relative;
+  margin-left: 10px;
+  padding-right: 10px;
+  line-height: 30px;
+  width: 290px;
+}

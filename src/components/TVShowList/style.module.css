@@ -1,0 +1,18 @@
+.container {
+  display: inline-flex;
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.list {
+  display: flex;
+  width: calc(100vw - 25px);
+  overflow-x: hidden;
+  &:hover {
+    overflow: auto;
+  }
+}

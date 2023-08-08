@@ -1,0 +1,25 @@
+.title {
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.rating {
+  display: inline-flex;
+}
+
+.summary {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  height: 120px;
+  overflow-y: hidden;
+  margin-top: 10px;
+  &:hover {
+    overflow-y: auto;
+  }
+}
+
+.ratingText {
+  margin-left: 10px;
+  line-height: 30px;
+}

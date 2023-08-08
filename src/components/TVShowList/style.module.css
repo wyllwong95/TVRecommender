@@ -13,6 +13,7 @@
   width: calc(100vw - 25px);
   overflow-x: hidden;
   &:hover {
+    cursor: pointer;
     overflow: auto;
   }
 }

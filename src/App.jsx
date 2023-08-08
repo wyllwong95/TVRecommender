@@ -86,7 +86,6 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className={s.tv_show_detail}>TV Show details</div>
       {currentTVShow && <TVShowDetail tvShow={currentTVShow}></TVShowDetail>}
       <div className={s.recommended_tv_shows}>
         {currentTVShow && (
